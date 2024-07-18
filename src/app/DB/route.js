@@ -4,7 +4,7 @@ import { Configuration,OpenAIApi } from "openai";
 export async function POST(req){
     let payload=await req.json();
     const api=new Configuration({
-        apiKey:"sk-proj-34saKGIGya7cfg9M3Dd3T3BlbkFJRXd2YjDQhtcCUQYuG6rC"
+        apiKey:process.env.OPENAIKEY
       })
     
       const openai=new OpenAIApi(api);  
