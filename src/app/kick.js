@@ -30,7 +30,7 @@ export default function Kick() {
 
 
   async function send(){
-   let stores= await fetch("http://localhost:3000/DB",{
+   let stores= await fetch("https://bot315.vercel.app/DB",{
         method:"post",
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({data})
