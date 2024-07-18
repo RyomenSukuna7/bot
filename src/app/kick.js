@@ -17,7 +17,7 @@ export default function Kick() {
 //   useEffect(() => {
 //     const fetchData = async () => {
 //       try {
-//         const response = await fetch("http://localhost:3000/DB");
+//         const response = await fetch("https://bot7.vercel.app/DB");
 //         const data = await response.json();
 //         setstore([...store,data]);
 //       } catch (error) {
